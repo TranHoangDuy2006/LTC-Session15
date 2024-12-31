@@ -1,13 +1,14 @@
 #include <stdio.h>
+
 #include <string.h>
 
 void countCharacters(char s[]) 
 {
-    char characters[256] = {0}; // M?ng luu các ký t? dã g?p
+    char characters[256] = {0};
     
-	int counts[256] = {0};      // M?ng luu s? l?n xu?t hi?n tuong ?ng
+	int counts[256] = {0};      
     
-	int uniqueCount = 0;        // S? lu?ng ký t? duy nh?t
+	int uniqueCount = 0;       
 
     for (int i = 0; s[i] != '\0'; i++) 
 	{
